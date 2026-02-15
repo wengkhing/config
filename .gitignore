@@ -1,0 +1,18 @@
+.DS_Store
+*.swp
+*.swo
+*~
+*.bak
+
+# Fish auto-generated files
+fish/.config/fish/fish_variables
+fish/.config/fish/completions/docker.fish
+fish/.config/fish/completions/kubectl.fish
+fish/.config/fish/completions/orbctl.fish
+fish/.config/fish/completions/openspec.fish
+
+# Neovim plugin cache/state
+nvim/.config/nvim/.git/
+
+# Claude local settings
+.claude/settings.local.json
