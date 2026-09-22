@@ -88,7 +88,7 @@ return {
     -- need notifier for disabling "No notifications available"
     notifier = { enabled = true },
 
-    image = { enabled = true },
+    image = { enabled = false },
 
     picker = {
       sources = {
@@ -131,6 +131,7 @@ return {
         "dist",
         ".turbo",
         ".changeset",
+        ".claude/worktrees",
       },
     },
   },

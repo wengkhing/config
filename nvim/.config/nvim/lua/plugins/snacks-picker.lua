@@ -34,7 +34,8 @@ return {
             "**/.sst/*",
             "**/.build/*",
             "**/sst-env.d.ts",
-            "**/node_modules/*"
+            "**/node_modules/*",
+            "**/.claude/worktrees/*"
           },
         },
         files = {
